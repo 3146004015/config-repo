@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-fish
+server:
+  port: 7002
+logging:
+  path: /data/logs/${spring.application.name}
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:7001/eureka/
+management:
+  security:
+    enabled: false
